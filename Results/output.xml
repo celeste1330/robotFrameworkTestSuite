@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0 (Python 3.10.4 on darwin)" generated="20220430 11:21:46.055" rpa="false" schemaversion="3">
-<suite id="s1" name="Google" source="/Users/celestibhandari/PycharmProjects/pythonProject/tests/product 3/google.robot">
-<test id="s1-t1" name="Open google" line="6">
+<robot generator="Robot 5.0 (Python 3.10.4 on darwin)" generated="20220430 13:47:11.020" rpa="false" schemaversion="3">
+<suite id="s1" name="AmazonLogin" source="/Users/celestibhandari/PycharmProjects/robotFrameworkTestSuite/tests/product 1/AmazonLogin.robot">
+<test id="s1-t1" name="Open facebook" line="9">
 <kw name="Open Browser" library="SeleniumLibrary">
-<arg>https://www.google.com</arg>
-<arg>chrome</arg>
+<arg>http://www.amazon.com</arg>
+<arg>Chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220430 11:21:46.474" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com'.</msg>
-<status status="PASS" starttime="20220430 11:21:46.473" endtime="20220430 11:21:51.265"/>
+<msg timestamp="20220430 13:47:11.393" level="INFO">Opening browser 'Chrome' to base url 'http://www.amazon.com'.</msg>
+<status status="PASS" starttime="20220430 13:47:11.392" endtime="20220430 13:47:17.741"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20220430 11:21:51.266" endtime="20220430 11:21:51.457"/>
+<status status="PASS" starttime="20220430 13:47:17.742" endtime="20220430 13:47:17.901"/>
 </kw>
-<doc>Basic information about whole suite</doc>
+<doc>This is some basic information about tests</doc>
 <tag>Smoke</tag>
-<status status="PASS" starttime="20220430 11:21:46.472" endtime="20220430 11:21:51.458"/>
+<status status="PASS" starttime="20220430 13:47:11.391" endtime="20220430 13:47:17.902"/>
 </test>
-<doc>Basic information about whole suite</doc>
-<status status="PASS" starttime="20220430 11:21:46.058" endtime="20220430 11:21:51.459"/>
+<doc>This is some basic information</doc>
+<status status="PASS" starttime="20220430 13:47:11.022" endtime="20220430 13:47:17.904"/>
 </suite>
 <statistics>
 <total>
@@ -28,7 +28,7 @@
 <stat pass="1" fail="0" skip="0">Smoke</stat>
 </tag>
 <suite>
-<stat pass="1" fail="0" skip="0" id="s1" name="Google">Google</stat>
+<stat pass="1" fail="0" skip="0" id="s1" name="AmazonLogin">AmazonLogin</stat>
 </suite>
 </statistics>
 <errors>
